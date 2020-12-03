@@ -1,0 +1,78 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+  <title>SignUp Form</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<body>
+<div class="jumbotron text-left" style="margin-bottom:0;background:red">
+  <h1>Reliancedigital</h1>
+</div>
+<nav class="navbar navbar-expand-sm bg-primary navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">ContactUs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="signup.html">SignUp</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login.html">LogIn</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="Feedback.html">FeedBack</a>
+    </li>
+  </ul>
+  <input type="text" placeholder="Find your favorite..."></input><button type="submit">Search</button>
+</nav>
+<div class="row">
+<div class="col-sm-12" style="background-color:lavenderblush"><br>
+<p style="text-align:center;font-size:40px"><u>SignUp</u></p>
+<div class="container">
+  <form action="/action_page.php" class="was-validated">
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" multiple  required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    <div class="form-group">
+      <label for="pwd">Repeat Password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+      <div class="valid-feedback">Valid.</div>
+      <div class="invalid-feedback">Please fill out this field.</div>
+    </div>
+    
+    <div class="form-group form-check">
+      <label class="form-check-label">
+        <input class="form-check-input" type="checkbox" name="remember" required>Remember Me
+        <div class="valid-feedback">Valid.</div>
+      </label>
+    </div>
+    <button type="submit" class="btn btn-primary">SignUp</button>|
+    <button type="button" >Cancel</button>
+  </form>
+</div>
+</div>
+</div>
+<footer>
+  <div class="col-sm-12 bg-primary">
+    <h3>
+      <p align="right">Poongothai M</p>
+      <p align="right">18ITR072</p></h3></div></footer>
+</body>
+</html>
